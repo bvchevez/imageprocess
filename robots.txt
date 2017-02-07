@@ -1,0 +1,3 @@
+# Prevent search spiders from indexing origin and stage sites
+User-agent: *
+Disallow: /

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -ev
+
+BIN_ROOT=$(dirname $0)
+
+$BIN_ROOT/pre-start
+$BIN_ROOT/initial-setup
+
+/go/bin/hips
